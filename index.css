@@ -50,5 +50,10 @@ body {
 .newyear,.countdown{
   font-family:sans-serif;
 }
-
+.textshadow{
+  text-shadow:-1px 6px 3px #000000;
+}
+.newyear{
+  text-shadow:  2px 1px #ffff;
+}
 
