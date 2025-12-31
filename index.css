@@ -43,61 +43,11 @@ body {
   background-color: white; */
 
 
-.countdown-container {
-    background: skyblue;
-    padding: 30px 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px gray;
-    
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    color: #ffff;
-    margin-top: 15px;
-}
-
-p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
-}
-
-#countdown {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.time-unit {
-    display: flex;
-    flex-direction: column;
-    background: #2980b9;
-    padding: 15px;
-    border-radius: 8px;
-    min-width: 80px;
-}
-
-.time-unit span {
-    font-size: 3em;
-    font-weight: bold;
-    color: #ecf0f1;
-}
-
-.time-unit label {
-    font-size: 0.8em;
-    text-transform: uppercase;
-    margin-top: 5px;
-}
-
-#message {
-    font-size: 3em;
-    color: #2ecc71;
-    margin-top: 40px;
-    font-weight: bold;
-}
-
 .hidden {
     display: none;
 }
+.newyear,.countdown{
+  font-family: cursive;
+}
+
+

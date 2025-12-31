@@ -6,43 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Year Countdown</title>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <div class="countdown-container">
-        <h1>New Year's Countdown</h1>
-        <div id="countdown">
-            <div class="time-unit">
-                <span id="days">00</span>
-                <label>Days</label>
-            </div>
-            <div class="time-unit">
-                <span id="hours">00</span>
-                <label>Hours</label>
-            </div>
-            <div class="time-unit">
-                <span id="minutes">00</span>
-                <label>Minutes</label>
-            </div>
-            <div class="time-unit">
-                <span id="seconds">00</span>
-                <label>Seconds</label>
-            </div>
+    <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-[70px] pt-[30px] rounded-md shadow-lg">
+        <h2 class="sm:text-[40px] countdown mb-0">Countdown To</h2>
+        <h1 class="font-bolder newyear text-center mb-[20px] sm:text-[40px] text-black">New Year</h1>
+        <div id="countdown" class="grid grid-cols-2 gap-x-5 gap-y-3 md:grid md:grid-cols-4  place-content-center">
+            
+                <div class="time-unit  rounded-md  bg-[#6200EE] px-[10px] py-[12px] text-white font-bold">
+                    <span id="days">00</span>
+                    <label>Days</label>
+                </div>
+                <div class="time-unit  rounded-md  bg-[#6200EE] px-[10px] py-[12px] font-bold">
+                    <span id="hours">00</span>
+                    <label>Hours</label>
+                </div>
+            
+                <div class="time-unit  rounded-md  bg-[#6200EE] px-[12px] py-[14px] font-bold">
+                    <span id="minutes">00</span>
+                    <label>Minutes</label>
+                </div>
+                <div class="time-unit  rounded-md  bg-[#6200EE] px-[12] py-[14px] font-bold">
+                    <span id="seconds">00</span>
+                    <label>Seconds</label>
+                </div>
+          
         </div>
 
         <div id="message" class="hidden">
             🎉 Happy New Year! 🎉
         </div>
-        <div id="weather-btn" style="margin-top:50px;">
-            <a href="Weather.html" style="text-decoration: none;text-decoration: none;
-            background: #2980b9;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;">
-                Weather Conditions</a>
-        </div>
     </div>
 </body>
-
+<script src="index.js"></script>
 </html>
