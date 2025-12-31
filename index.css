@@ -45,9 +45,10 @@ body {
 
 .hidden {
     display: none;
+
 }
 .newyear,.countdown{
-  font-family: cursive;
+  font-family:sans-serif;
 }
 
 
